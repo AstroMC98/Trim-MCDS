@@ -1,5 +1,6 @@
-# Exploring Protein-Protein Interaction Networks - A Look Into Connection Type of Proteins
-A modified version of the MLST algorithm, configured for a directed graph. The code utilizes the SIGNOR 2.0, a protein-protein interaction database, as its primary resource. Parsing of relevant columns is also included. 
+# Exploring Protein-Protein Interaction Networks - Exploring Edge Pruning via conditional Attributes
+
+This study aims to explore the potential for identifying salient proteins for targetted drug research using a combination of the Dominating Set Theory and Edge Pruning. We performed data wrangling and cleaning as well as edge pruning as our initial step. We utilize a novel method for Edge Pruning that utilizes inherent edge attributes as node states and isolating only edges that follow a set number of rules. Finally, we performed the Minimum Leaf Spanning Tree Algorithm to determine the Minimum Connected Dominating Set of the PPI Network.
 
 Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
 
